@@ -31,7 +31,7 @@
                                     Width="48"
                                     Height="58"
                                     Data="{TemplateBinding Geometry}"
-                                    Fill="White" />
+                                    Fill="{TemplateBinding SvgFill}" />
                             </Border>
 
                             <Border
@@ -43,10 +43,25 @@
                                     FontFamily="Roboto"
                                     FontSize="24"
                                     FontWeight="Bold"
-                                    Foreground="White"
+                                    Foreground="{TemplateBinding SvgFill}"
                                     Text="{TemplateBinding ButtonName}" />
                             </Border>
                         </StackPanel>
+                        
+                        <Button.Styles>
+                            <Style Selector="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Setter Property="BorderBrush" Value="#5DE4FF" />
+                            </Style>
+                            <Style Selector="Button:pointerover /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Yellow" />
+                                <Setter Property="BorderBrush" Value="#5DE4FF" />
+                            </Style>
+                            <Style Selector="Button:pressed /template/ ContentPresenter">
+                                <Setter Property="Background" Value="Pink" />
+                                <Setter Property="BorderBrush" Value="Red" />
+                            </Style>
+                        </Button.Styles>
                     </Button>
                 </Border>
             </ControlTemplate>

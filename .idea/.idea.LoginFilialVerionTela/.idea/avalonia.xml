@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="LoginFilialVerionTela/LoginFilialVerionTela/CardButtonControl.axaml" value="LoginFilialVerionTela/LoginFilialVerionTela.Browser/LoginFilialVerionTela.Browser.csproj" />
+        <entry key="LoginFilialVerionTela/LoginFilialVerionTela/Views/MainView.axaml" value="LoginFilialVerionTela/LoginFilialVerionTela.Browser/LoginFilialVerionTela.Browser.csproj" />
       </map>
     </option>
   </component>

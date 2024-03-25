@@ -43,9 +43,8 @@
                         Grid.Column="1"
                         ClipToBounds="True"
                         CornerRadius="16"
-                        Geometry="{DynamicResource GrupoVerionSVG}"
-						
-						/>
+                        ButtonName="Hello World"
+                        Geometry="{DynamicResource GrupoVerionSVG}"/>
 
                     <!--  Botão 2 - Filial Verion  -->
                     <Border
