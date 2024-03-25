@@ -1,0 +1,113 @@
+<Styles
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:LoginFilialVerionTela">
+    <Design.PreviewWith>
+        <controls:CardButtonControl />
+    </Design.PreviewWith>
+
+    <!--  Botão preenchido com o azul mais escuro ao clicar  -->
+    <Style Selector="Button#CardButton:pressed /template/ ContentPresenter">
+        <Setter Property="Background" Value="#43B6DB" />
+    </Style>
+
+    <!--  Cor inicial da borda  -->
+    <Style Selector="Button#CardButton Border#BorderChange">
+        <Setter Property="BorderThickness" Value="0,4,0,0" />
+        <Setter Property="BorderBrush" Value="#5DE4FF" />
+    </Style>
+
+    <!--  Cor da borda ao clicar  -->
+    <Style Selector="Button#CardButton:pressed Border#BorderChange">
+        <Setter Property="BorderBrush" Value="#040404" />
+    </Style>
+
+    <!--  Mudar cor do SVG e da Label ao clicar  -->
+    <Style Selector="Button#CardButton">
+        <Style Selector="^:pressed">
+            <Style Selector="^ /template/ ContentPresenter#PART_ContentPresenter">
+                <Setter Property="Content">
+                    <Setter.Value>
+                        <Template>
+                            <StackPanel>
+                                <Border
+                                    x:Name="SVGBorder"
+                                    Height="140"
+                                    Padding="30,40,40,40">
+                                    <Path
+                                        x:Name="SVGButton"
+                                        Width="48"
+                                        Height="58"
+                                        Data="{TemplateBinding Geometry}"
+                                        Fill="#040404" />
+                                </Border>
+
+                                <Border
+                                    x:Name="BorderChange"
+                                    Width="189"
+                                    Padding="15,6">
+                                    <TextBlock
+                                        x:Name="ButtonLabel"
+                                        FontFamily="Roboto"
+                                        FontSize="24"
+                                        FontWeight="Bold"
+                                        Foreground="#040404"
+                                        Text="{TemplateBinding ButtonName}" />
+                                </Border>
+                            </StackPanel>
+                        </Template>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Style>
+    </Style>
+
+    <Style Selector="controls|CardButtonControl">
+        <!--  Set Defaults  -->
+        <Setter Property="Template">
+            <ControlTemplate>
+                <Border
+                    Grid.Column="1"
+                    ClipToBounds="True"
+                    CornerRadius="16">
+                    <Button
+                        x:Name="CardButton"
+                        Width="188"
+                        Height="212"
+                        Background="Transparent"
+                        BorderBrush="#5DE4FF"
+                        BorderThickness="4"
+                        Classes="f"
+                        CornerRadius="16">
+                        <StackPanel>
+                            <Border
+                                x:Name="SVGBorder"
+                                Height="140"
+                                Padding="30,40,40,40">
+                                <Path
+                                    x:Name="SVGButton"
+                                    Width="48"
+                                    Height="58"
+                                    Data="{TemplateBinding Geometry}"
+                                    Fill="White" />
+                            </Border>
+
+                            <Border
+                                x:Name="BorderChange"
+                                Width="189"
+                                Padding="15,6">
+                                <TextBlock
+                                    x:Name="ButtonLabel"
+                                    FontFamily="Roboto"
+                                    FontSize="24"
+                                    FontWeight="Bold"
+                                    Foreground="White"
+                                    Text="{TemplateBinding ButtonName}" />
+                            </Border>
+                        </StackPanel>
+                    </Button>
+                </Border>
+            </ControlTemplate>
+        </Setter>
+    </Style>
+</Styles>

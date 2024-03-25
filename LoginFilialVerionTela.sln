@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginFilialVerionTela", "LoginFilialVerionTela\LoginFilialVerionTela\LoginFilialVerionTela.csproj", "{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginFilialVerionTela.Android", "LoginFilialVerionTela\LoginFilialVerionTela.Android\LoginFilialVerionTela.Android.csproj", "{3F83B7E3-6923-403E-860F-66ABF0E52BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginFilialVerionTela.Desktop", "LoginFilialVerionTela\LoginFilialVerionTela.Desktop\LoginFilialVerionTela.Desktop.csproj", "{3AE2D0F6-CB14-43C4-B80B-80220E7A6541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginFilialVerionTela.iOS", "LoginFilialVerionTela\LoginFilialVerionTela.iOS\LoginFilialVerionTela.iOS.csproj", "{A3C0DB7B-E49E-47DB-A051-174F12671E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginFilialVerionTela.Browser", "LoginFilialVerionTela\LoginFilialVerionTela.Browser\LoginFilialVerionTela.Browser.csproj", "{B32F0C2D-ED03-4CBD-A0B4-E662C11EE89A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F83B7E3-6923-403E-860F-66ABF0E52BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F83B7E3-6923-403E-860F-66ABF0E52BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F83B7E3-6923-403E-860F-66ABF0E52BC8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3F83B7E3-6923-403E-860F-66ABF0E52BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F83B7E3-6923-403E-860F-66ABF0E52BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F83B7E3-6923-403E-860F-66ABF0E52BC8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3AE2D0F6-CB14-43C4-B80B-80220E7A6541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE2D0F6-CB14-43C4-B80B-80220E7A6541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE2D0F6-CB14-43C4-B80B-80220E7A6541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE2D0F6-CB14-43C4-B80B-80220E7A6541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C0DB7B-E49E-47DB-A051-174F12671E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C0DB7B-E49E-47DB-A051-174F12671E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C0DB7B-E49E-47DB-A051-174F12671E46}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A3C0DB7B-E49E-47DB-A051-174F12671E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C0DB7B-E49E-47DB-A051-174F12671E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C0DB7B-E49E-47DB-A051-174F12671E46}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B32F0C2D-ED03-4CBD-A0B4-E662C11EE89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32F0C2D-ED03-4CBD-A0B4-E662C11EE89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32F0C2D-ED03-4CBD-A0B4-E662C11EE89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32F0C2D-ED03-4CBD-A0B4-E662C11EE89A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEF547F8-B032-4D0B-A5E0-BDAEB48672B1}
+	EndGlobalSection
+EndGlobal

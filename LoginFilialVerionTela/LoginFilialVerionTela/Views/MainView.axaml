@@ -1,0 +1,172 @@
+<UserControl
+    x:Class="LoginFilialVerionTela.Views.MainView"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:LoginFilialVerionTela"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:LoginFilialVerionTela.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:LoginFilialVerionTela.ViewModels"
+    d:DesignHeight="800"
+    d:DesignWidth="1280"
+    x:DataType="vm:MainViewModel"
+    mc:Ignorable="d">
+
+    <Design.DataContext>
+        <!--
+            This only sets the DataContext for the previewer in an IDE,
+            to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs)
+        -->
+        <vm:MainViewModel />
+    </Design.DataContext>
+
+    <Viewbox>
+        <!--  GRID PRINCIPAL  -->
+        <Grid ColumnDefinitions="1280" RowDefinitions="800">
+
+            <!--  Background Image  -->
+            <Image Source="avares://LoginFilialVerionTela/Assets/LightNoAplicaçãoDefault.png" />
+
+            <!--  Header Provisório  -->
+            <Grid RowDefinitions="109">
+                <Border Background="#323232" />
+            </Grid>
+
+            <!--  Page Layout  -->
+            <Grid ColumnDefinitions="1280" RowDefinitions="294,212,294">
+
+                <!--  Content Principal  -->
+                <Grid Grid.Row="1" ColumnDefinitions="168,188,64,188,64,188,64,188">
+
+                    <!--  Botão 1 - Grupo Verion  -->
+                    <controls:CardButtonControl
+                        Grid.Column="1"
+                        ClipToBounds="True"
+                        CornerRadius="16"
+                        Geometry="{DynamicResource GrupoVerionSVG}"
+						
+						/>
+
+                    <!--  Botão 2 - Filial Verion  -->
+                    <Border
+                        Grid.Column="3"
+                        BorderBrush="#5DE4FF"
+                        BorderThickness="4"
+                        ClipToBounds="True"
+                        CornerRadius="16">
+                        <Button
+                            x:Name="MyButton"
+                            Width="188"
+                            Height="212"
+                            Background="Transparent"
+                            CornerRadius="16">
+                            <StackPanel>
+                                <Border Height="140" Padding="40,42">
+                                    <StackPanel>
+                                        <Image
+                                            Width="60"
+                                            Height="58"
+                                            Source="avares://LoginFilialVerionTela/Assets/filial-arrow.png" />
+                                    </StackPanel>
+                                </Border>
+
+                                <Border
+                                    Width="189"
+                                    Padding="22,8"
+                                    BorderBrush="#5DE4FF"
+                                    BorderThickness="0,4,0,0">
+                                    <Label
+                                        Content="Filial Verion"
+                                        FontFamily="Roboto"
+                                        FontSize="24"
+                                        FontWeight="Bold"
+                                        Foreground="White" />
+                                </Border>
+                            </StackPanel>
+                        </Button>
+                    </Border>
+
+                    <!--  Botão 3 - Revenda Verion  -->
+                    <Border
+                        Grid.Column="5"
+                        BorderBrush="#5DE4FF"
+                        BorderThickness="4"
+                        ClipToBounds="True"
+                        CornerRadius="16">
+                        <Button
+                            Width="188"
+                            Height="212"
+                            Background="Transparent"
+                            CornerRadius="16">
+                            <StackPanel>
+                                <Border Height="140" Padding="8,42,20,10">
+                                    <StackPanel>
+                                        <Image
+                                            Width="60"
+                                            Height="58"
+                                            Source="avares://LoginFilialVerionTela/Assets/revenda-arrow.png" />
+                                    </StackPanel>
+                                </Border>
+
+                                <Border
+                                    Width="189"
+                                    Padding="1,8"
+                                    BorderBrush="#5DE4FF"
+                                    BorderThickness="0,4,0,0">
+                                    <Label
+                                        ClipToBounds="True"
+                                        Content="Revenda Verion"
+                                        FontFamily="Roboto"
+                                        FontSize="24"
+                                        FontWeight="Bold"
+                                        Foreground="White" />
+                                </Border>
+                            </StackPanel>
+                        </Button>
+                    </Border>
+
+                    <!--  Botão 4 - Cliente Verion  -->
+                    <Border
+                        Grid.Column="7"
+                        BorderBrush="#5DE4FF"
+                        BorderThickness="4"
+                        ClipToBounds="True"
+                        CornerRadius="16">
+                        <Button
+                            Width="188"
+                            Height="212"
+                            Background="Transparent"
+                            CornerRadius="16">
+                            <StackPanel>
+                                <Border Height="140" Padding="8,42,20,10">
+                                    <StackPanel>
+                                        <Image
+                                            Width="60"
+                                            Height="58"
+                                            Source="avares://LoginFilialVerionTela/Assets/cliente-arrow.png" />
+                                    </StackPanel>
+                                </Border>
+
+                                <Border
+                                    Width="189"
+                                    Padding="9,8"
+                                    BorderBrush="#5DE4FF"
+                                    BorderThickness="0,4,0,0">
+                                    <Label
+                                        ClipToBounds="True"
+                                        Content="Cliente Verion"
+                                        FontFamily="Roboto"
+                                        FontSize="24"
+                                        FontWeight="Bold"
+                                        Foreground="White" />
+                                </Border>
+                            </StackPanel>
+                        </Button>
+                    </Border>
+                </Grid>
+
+
+            </Grid>
+        </Grid>
+    </Viewbox>
+</UserControl>
