@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|c:\\users\\usuario\\source\\repos\\loginfilialveriontela\\loginfilialveriontela\\loginfilialveriontela\\cardbuttoncontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|solutionrelative:loginfilialveriontela\\loginfilialveriontela\\cardbuttoncontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|c:\\users\\usuario\\source\\repos\\loginfilialveriontela\\loginfilialveriontela\\loginfilialveriontela\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|solutionrelative:loginfilialveriontela\\loginfilialveriontela\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|c:\\users\\usuario\\source\\repos\\loginfilialveriontela\\loginfilialveriontela\\loginfilialveriontela\\cardbuttoncontrol.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|solutionrelative:loginfilialveriontela\\loginfilialveriontela\\cardbuttoncontrol.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|c:\\users\\usuario\\source\\repos\\loginfilialveriontela\\loginfilialveriontela\\loginfilialveriontela\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|solutionrelative:loginfilialveriontela\\loginfilialveriontela\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|c:\\users\\usuario\\source\\repos\\loginfilialveriontela\\loginfilialveriontela\\loginfilialveriontela\\cardbuttoncontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}|Code",
+      "RelativeMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|solutionrelative:loginfilialveriontela\\loginfilialveriontela\\cardbuttoncontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}|Code"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|c:\\users\\usuario\\source\\repos\\loginfilialveriontela\\loginfilialveriontela\\loginfilialveriontela\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|solutionrelative:loginfilialveriontela\\loginfilialveriontela\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|c:\\users\\usuario\\source\\repos\\loginfilialveriontela\\loginfilialveriontela\\loginfilialveriontela\\assets\\icons.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|solutionrelative:loginfilialveriontela\\loginfilialveriontela\\assets\\icons.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|c:\\users\\usuario\\source\\repos\\loginfilialveriontela\\loginfilialveriontela\\loginfilialveriontela\\views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D3AF3D-A60B-46D1-854E-3166AB9D7F7F}|LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela.csproj|solutionrelative:loginfilialveriontela\\loginfilialveriontela\\views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,44 +42,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.axaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\App.axaml",
-              "RelativeDocumentMoniker": "LoginFilialVerionTela\\LoginFilialVerionTela\\App.axaml",
-              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\App.axaml",
-              "RelativeToolTip": "LoginFilialVerionTela\\LoginFilialVerionTela\\App.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T17:34:51.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CardButtonControl.axaml.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\CardButtonControl.axaml.cs",
               "RelativeDocumentMoniker": "LoginFilialVerionTela\\LoginFilialVerionTela\\CardButtonControl.axaml.cs",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\CardButtonControl.axaml.cs",
               "RelativeToolTip": "LoginFilialVerionTela\\LoginFilialVerionTela\\CardButtonControl.axaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAoAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T17:30:03.84Z",
+              "WhenOpened": "2024-03-26T13:45:38.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Icons.axaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\Assets\\Icons.axaml",
+              "RelativeDocumentMoniker": "LoginFilialVerionTela\\LoginFilialVerionTela\\Assets\\Icons.axaml",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\Assets\\Icons.axaml",
+              "RelativeToolTip": "LoginFilialVerionTela\\LoginFilialVerionTela\\Assets\\Icons.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T13:39:25.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CardButtonControl.axaml",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\CardButtonControl.axaml",
               "RelativeDocumentMoniker": "LoginFilialVerionTela\\LoginFilialVerionTela\\CardButtonControl.axaml",
               "ToolTip": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\CardButtonControl.axaml",
               "RelativeToolTip": "LoginFilialVerionTela\\LoginFilialVerionTela\\CardButtonControl.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T16:51:04.698Z",
+              "WhenOpened": "2024-03-26T13:02:46.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "MainView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\Views\\MainView.axaml.cs",
+              "RelativeDocumentMoniker": "LoginFilialVerionTela\\LoginFilialVerionTela\\Views\\MainView.axaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\Views\\MainView.axaml.cs",
+              "RelativeToolTip": "LoginFilialVerionTela\\LoginFilialVerionTela\\Views\\MainView.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:56:11.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainView.axaml",
               "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\LoginFilialVerionTela\\LoginFilialVerionTela\\LoginFilialVerionTela\\Views\\MainView.axaml",
               "RelativeDocumentMoniker": "LoginFilialVerionTela\\LoginFilialVerionTela\\Views\\MainView.axaml",

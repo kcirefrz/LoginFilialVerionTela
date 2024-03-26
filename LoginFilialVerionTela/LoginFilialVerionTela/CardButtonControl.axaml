@@ -6,13 +6,27 @@
         <controls:CardButtonControl />
     </Design.PreviewWith>
 
+    <!--  Botão preenchido com o azul mais escuro ao clicar  -->
+    <Style Selector="Button#CardButton:pressed /template/ ContentPresenter">
+        <Setter Property="Background" Value="#43B6DB" />
+    </Style>
+
+    <!--  Cor inicial da borda  -->
+    <Style Selector="Button#CardButton Border#BorderChange">
+        <Setter Property="BorderThickness" Value="0,4,0,0" />
+        <Setter Property="BorderBrush" Value="#5DE4FF" />
+    </Style>
+
+    <!--  Cor da borda ao clicar  -->
+    <Style Selector="Button#CardButton:pressed Border#BorderChange">
+        <Setter Property="BorderBrush" Value="#040404" />
+    </Style>
+
     <Style Selector="controls|CardButtonControl">
         <!--  Set Defaults  -->
         <Setter Property="Template">
             <ControlTemplate>
-                <Border
-                    ClipToBounds="True"
-                    CornerRadius="16">
+                <Border ClipToBounds="True" CornerRadius="16">
                     <Button
                         x:Name="CardButton"
                         Width="188"
@@ -25,11 +39,12 @@
                             <Border
                                 x:Name="SVGBorder"
                                 Height="140"
-                                Padding="30,40,40,40">
+                                Padding="0,45,0,0"
+                                HorizontalAlignment="Center">
                                 <Path
                                     x:Name="SVGButton"
-                                    Width="48"
-                                    Height="58"
+                                    Width="{TemplateBinding Width}"
+                                    Height="{TemplateBinding Height}"
                                     Data="{TemplateBinding Geometry}"
                                     Fill="{TemplateBinding SvgFill}" />
                             </Border>
@@ -37,9 +52,12 @@
                             <Border
                                 x:Name="BorderChange"
                                 Width="189"
-                                Padding="15,6">
+                                BorderBrush="#5DE4FF"
+								Padding="0,10,0,0"
+                                BorderThickness="0,4,0,0">
                                 <TextBlock
                                     x:Name="ButtonLabel"
+                                    HorizontalAlignment="Center"
                                     FontFamily="Roboto"
                                     FontSize="24"
                                     FontWeight="Bold"
@@ -47,19 +65,11 @@
                                     Text="{TemplateBinding ButtonName}" />
                             </Border>
                         </StackPanel>
-                        
+
                         <Button.Styles>
                             <Style Selector="Button">
                                 <Setter Property="Background" Value="Transparent" />
                                 <Setter Property="BorderBrush" Value="#5DE4FF" />
-                            </Style>
-                            <Style Selector="Button:pointerover /template/ ContentPresenter">
-                                <Setter Property="Background" Value="Yellow" />
-                                <Setter Property="BorderBrush" Value="#5DE4FF" />
-                            </Style>
-                            <Style Selector="Button:pressed /template/ ContentPresenter">
-                                <Setter Property="Background" Value="Pink" />
-                                <Setter Property="BorderBrush" Value="Red" />
                             </Style>
                         </Button.Styles>
                     </Button>

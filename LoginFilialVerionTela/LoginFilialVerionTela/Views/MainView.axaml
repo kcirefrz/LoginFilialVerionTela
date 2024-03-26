@@ -41,130 +41,35 @@
                     <!--  Botão 1 - Grupo Verion  -->
                     <controls:CardButtonControl
                         Grid.Column="1"
+                        ButtonName="Grupo Verion"
                         ClipToBounds="True"
-                        CornerRadius="16"
-                        ButtonName="Hello World"
-                        Geometry="{DynamicResource GrupoVerionSVG}"/>
+                        CustomWidth="48"
+                        Geometry="{DynamicResource GrupoVerionSVG}" />
 
                     <!--  Botão 2 - Filial Verion  -->
-                    <Border
+                    <controls:CardButtonControl
                         Grid.Column="3"
-                        BorderBrush="#5DE4FF"
-                        BorderThickness="4"
+                        ButtonName="Filial Verion"
                         ClipToBounds="True"
-                        CornerRadius="16">
-                        <Button
-                            x:Name="MyButton"
-                            Width="188"
-                            Height="212"
-                            Background="Transparent"
-                            CornerRadius="16">
-                            <StackPanel>
-                                <Border Height="140" Padding="40,42">
-                                    <StackPanel>
-                                        <Image
-                                            Width="60"
-                                            Height="58"
-                                            Source="avares://LoginFilialVerionTela/Assets/filial-arrow.png" />
-                                    </StackPanel>
-                                </Border>
-
-                                <Border
-                                    Width="189"
-                                    Padding="22,8"
-                                    BorderBrush="#5DE4FF"
-                                    BorderThickness="0,4,0,0">
-                                    <Label
-                                        Content="Filial Verion"
-                                        FontFamily="Roboto"
-                                        FontSize="24"
-                                        FontWeight="Bold"
-                                        Foreground="White" />
-                                </Border>
-                            </StackPanel>
-                        </Button>
-                    </Border>
+                        CustomWidth="60"
+                        Geometry="{DynamicResource FilialVerionSVG}" />
 
                     <!--  Botão 3 - Revenda Verion  -->
-                    <Border
+                    <controls:CardButtonControl
                         Grid.Column="5"
-                        BorderBrush="#5DE4FF"
-                        BorderThickness="4"
+                        ButtonName="Revenda Verion"
                         ClipToBounds="True"
-                        CornerRadius="16">
-                        <Button
-                            Width="188"
-                            Height="212"
-                            Background="Transparent"
-                            CornerRadius="16">
-                            <StackPanel>
-                                <Border Height="140" Padding="8,42,20,10">
-                                    <StackPanel>
-                                        <Image
-                                            Width="60"
-                                            Height="58"
-                                            Source="avares://LoginFilialVerionTela/Assets/revenda-arrow.png" />
-                                    </StackPanel>
-                                </Border>
-
-                                <Border
-                                    Width="189"
-                                    Padding="1,8"
-                                    BorderBrush="#5DE4FF"
-                                    BorderThickness="0,4,0,0">
-                                    <Label
-                                        ClipToBounds="True"
-                                        Content="Revenda Verion"
-                                        FontFamily="Roboto"
-                                        FontSize="24"
-                                        FontWeight="Bold"
-                                        Foreground="White" />
-                                </Border>
-                            </StackPanel>
-                        </Button>
-                    </Border>
+                        CustomWidth="60"
+                        Geometry="{DynamicResource RevendaVerionSVG}" />
 
                     <!--  Botão 4 - Cliente Verion  -->
-                    <Border
+                    <controls:CardButtonControl
                         Grid.Column="7"
-                        BorderBrush="#5DE4FF"
-                        BorderThickness="4"
+                        ButtonName="Cliente Verion"
                         ClipToBounds="True"
-                        CornerRadius="16">
-                        <Button
-                            Width="188"
-                            Height="212"
-                            Background="Transparent"
-                            CornerRadius="16">
-                            <StackPanel>
-                                <Border Height="140" Padding="8,42,20,10">
-                                    <StackPanel>
-                                        <Image
-                                            Width="60"
-                                            Height="58"
-                                            Source="avares://LoginFilialVerionTela/Assets/cliente-arrow.png" />
-                                    </StackPanel>
-                                </Border>
-
-                                <Border
-                                    Width="189"
-                                    Padding="9,8"
-                                    BorderBrush="#5DE4FF"
-                                    BorderThickness="0,4,0,0">
-                                    <Label
-                                        ClipToBounds="True"
-                                        Content="Cliente Verion"
-                                        FontFamily="Roboto"
-                                        FontSize="24"
-                                        FontWeight="Bold"
-                                        Foreground="White" />
-                                </Border>
-                            </StackPanel>
-                        </Button>
-                    </Border>
+                        CustomWidth="60"
+                        Geometry="{DynamicResource ClienteVerionSVG}" />
                 </Grid>
-
-
             </Grid>
         </Grid>
     </Viewbox>
