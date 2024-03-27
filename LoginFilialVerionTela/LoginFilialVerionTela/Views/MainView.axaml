@@ -43,32 +43,32 @@
                         Grid.Column="1"
                         ButtonName="Grupo Verion"
                         ClipToBounds="True"
-                        CustomWidth="48"
                         Geometry="{DynamicResource GrupoVerionSVG}" />
+                    <!--  CustomWidth="48"  -->
 
                     <!--  Botão 2 - Filial Verion  -->
                     <controls:CardButtonControl
                         Grid.Column="3"
                         ButtonName="Filial Verion"
                         ClipToBounds="True"
-                        CustomWidth="60"
                         Geometry="{DynamicResource FilialVerionSVG}" />
+                    <!--  CustomWidth="60"  -->
 
                     <!--  Botão 3 - Revenda Verion  -->
                     <controls:CardButtonControl
                         Grid.Column="5"
                         ButtonName="Revenda Verion"
                         ClipToBounds="True"
-                        CustomWidth="60"
                         Geometry="{DynamicResource RevendaVerionSVG}" />
+                    <!--  CustomWidth="60"  -->
 
                     <!--  Botão 4 - Cliente Verion  -->
                     <controls:CardButtonControl
                         Grid.Column="7"
                         ButtonName="Cliente Verion"
                         ClipToBounds="True"
-                        CustomWidth="60"
                         Geometry="{DynamicResource ClienteVerionSVG}" />
+                    <!--  CustomWidth="60"  -->
                 </Grid>
             </Grid>
         </Grid>

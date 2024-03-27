@@ -40,20 +40,24 @@
                                 x:Name="SVGBorder"
                                 Height="140"
                                 Padding="0,45,0,0"
-                                HorizontalAlignment="Center">
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Top">
                                 <Path
                                     x:Name="SVGButton"
-                                    Width="{TemplateBinding Width}"
-                                    Height="{TemplateBinding Height}"
                                     Data="{TemplateBinding Geometry}"
                                     Fill="{TemplateBinding SvgFill}" />
+                                <!--
+                                    Width="{TemplateBinding CustomWidth}"
+                                    Height="{TemplateBinding CustomHeight}"
+                                -->
+                                <!--  Não estão mudando os tamanhos dos SVG, porém os move de lugar  -->
                             </Border>
 
                             <Border
                                 x:Name="BorderChange"
                                 Width="189"
+                                Padding="0,10,0,0"
                                 BorderBrush="#5DE4FF"
-								Padding="0,10,0,0"
                                 BorderThickness="0,4,0,0">
                                 <TextBlock
                                     x:Name="ButtonLabel"
