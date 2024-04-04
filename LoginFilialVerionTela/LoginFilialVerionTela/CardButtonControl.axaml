@@ -39,18 +39,14 @@
                             <Border
                                 x:Name="SVGBorder"
                                 Height="140"
-                                Padding="0,45,0,0"
                                 HorizontalAlignment="Center"
                                 VerticalAlignment="Top">
-                                <Path
-                                    x:Name="SVGButton"
-                                    Data="{TemplateBinding Geometry}"
-                                    Fill="{TemplateBinding SvgFill}" />
-                                <!--
-                                    Width="{TemplateBinding CustomWidth}"
-                                    Height="{TemplateBinding CustomHeight}"
-                                -->
-                                <!--  Não estão mudando os tamanhos dos SVG, porém os move de lugar  -->
+                                <Viewbox Width="{TemplateBinding CustomWidth}" Height="{TemplateBinding CustomHeight}">
+                                    <Path
+                                        x:Name="SVGButton"
+                                        Data="{TemplateBinding Geometry}"
+                                        Fill="{TemplateBinding SvgFill}" />
+                                </Viewbox>
                             </Border>
 
                             <Border
